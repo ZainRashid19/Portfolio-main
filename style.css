@@ -1,0 +1,41 @@
+table,
+tr,
+th {
+  border: 9px solid #ddd;
+}
+
+body{
+  background-image: url("https://i.redd.it/827jkribmss61.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.white{
+    color:white;
+    text-align:center;
+}
+
+.music{
+  height:200px;
+  width:200px;
+}
+
+.car{
+  height: 200px;
+  width: 400px;
+}
+
+.me{
+  height: 200px;
+  width: 200px;
+}
+.fam{
+  height: 200px;
+  width: 400px;
+}
+
+.friends{
+  height: 200px;
+  width: 100px;
+}
