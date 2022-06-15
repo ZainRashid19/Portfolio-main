@@ -273,3 +273,8 @@ a:hover {
 		background-position: 0% 50%;
 	}
 }
+
+.put_right{
+  content-align:right;
+  text-align:right
+}
