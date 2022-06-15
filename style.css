@@ -18,14 +18,15 @@ body {
 }
 
 .music_pics {
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
 }
 
 .fam {
   height: 340px;
   width: 340px;
 }
+
 
 /*-------------Reset-------------*/
 /*--------------------------*/
@@ -277,4 +278,9 @@ a:hover {
 .put_right{
   content-align:right;
   text-align:right
+}
+
+.seperate{
+  border-width: 50px;
+  border-color: black;
 }
