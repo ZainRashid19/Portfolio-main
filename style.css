@@ -11,6 +11,7 @@ body {
   background-position: center;
 }
 
+
 .white {
   color: white;
   text-align: center;
@@ -22,8 +23,8 @@ body {
 }
 
 .fam {
-  height: 370px;
-  width: 370px;
+  height: 340px;
+  width: 340px;
 }
 
 /*-------------Reset-------------*/
@@ -33,6 +34,8 @@ button {
   box-shadow: none;
   border: none;
   cursor: pointer;
+  background-color: #4CAF50;
+  /*-------------This should change button color-------------*/
 }
 
 button:focus, input:focus {
@@ -158,8 +161,11 @@ h1.logoa, a:active, a:hover, a:visited {
 a:link, a:visited, a:active {
   text-decoration: none;
   color: #f857a8;
-  < !-- THis is the color -->
+  < !-- This is the color #800080-->
 }
+
+
+
 
 a:hover {
   text-decoration: underline;
@@ -245,4 +251,25 @@ a:hover {
 
   {
   padding-top: 3000px;
+}
+
+
+
+.color {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
